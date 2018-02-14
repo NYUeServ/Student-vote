@@ -2,3 +2,8 @@
 server/config/_environment.coffee
 scripts/mongo_keys.txt
 config
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
